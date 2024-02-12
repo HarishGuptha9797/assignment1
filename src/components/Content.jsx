@@ -87,33 +87,33 @@ const Content = () => {
                                 text:`Create custom software tailored for your unique needs, including front-end, and core back-end technology.`
                             },
                             {   
-                                src:'public\\document-code.png',
+                                src:'public\\setting-5.png',
                                 name:'QA and Testing',
                                 diffStyles:{textDecorationColor:'gray'},
                                 text:'Create custom software tailored for your unique needs, including front-end, and core back-end technology.',
                                 stylesImg: {marginBottom:'80px'}
                             },
                             {   
-                                src:'public\\document-code.png',
+                                src:'public\\data.png',
                                 name:'AI and Data Science',
                                 diffStyles:{textDecorationColor:'gray'},
                                 text:'Use leading AI, machine learning, and data engineering technologies to unlock bussiness value.',
                                 stylesImg: {marginBottom:'80px'}
                             },
                             {   
-                                src:'public\\document-code.png',
+                                src:'public\\brush.png',
                                 name:'UX/UI Design',
                                 diffStyles:{textDecorationColor:'gray'},
                                 text:'Create beautiful, pixel-perfect, and easy-to-use designs that delight your end users.'
                             },
                             {   
-                                src:'public\\document-code.png',
+                                src:'public\\mobile.png',
                                 name:'Mobile App Development',
                                 diffStyles:{textDecorationColor:'gray'},
                                 text:'Build performant, scalable, and secure mobile applications for iOS and Android devices.'
                             },
                             {   
-                                src:'public\\document-code.png',
+                                src:'public\\shapes.png',
                                 name:'Platform and Infrastructure',
                                 diffStyles:{textDecorationColor:'gray'},
                                 text:'Ensure applications are secure, fault tolerant and highly available with our DevOps and Security engineers.'
@@ -130,6 +130,12 @@ const Content = () => {
                             )
                             
                         })}
+                        <div className="bg-img1">
+                            <img src="public\Vector 4.png"/>
+                        </div>
+                        <div className="bg-img2">
+                            <img src="public\Vector 6.png"/>
+                        </div>
                         {/* <div class='service1'>
                             <img src="public\document-code.png"/>
                             <div>Custom SoftwareDevelopment</div>

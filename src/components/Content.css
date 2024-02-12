@@ -29,7 +29,7 @@
     font-size: 33px;
     font-weight: 500;
     color: #3d3d3d;
-    margin-bottom: 80px;
+    margin-bottom: 65px;
 }
 
 .about-teams >div>span{
@@ -39,8 +39,7 @@
 .teams{
     margin: 0 50px;
     margin-bottom: 170px;
-    padding-bottom: 10px;
-    padding:  0 50px 10px 60px;
+    padding:  25px 50px 10px 60px;
     display: flex;
     justify-content: space-between;
     border-width: 1px;
@@ -50,7 +49,7 @@
     border-bottom: solid;
     border-radius: 30px;
     border-color:white;
-    box-shadow: 0 1px 10px rgb(177, 177, 177);
+    box-shadow: 1px 0px 8px rgb(177, 177, 177);
 
 }
 .Front-end,.Back-end,.Data-Analytics{
@@ -69,7 +68,7 @@
     justify-content: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .ad-image2>div{
     margin-top: 30px;
@@ -77,13 +76,14 @@
     line-height:50px;
 }
 .services{
-    padding-left: 80px;
+    padding-left: 90px;
     padding-right: 90px;
-    margin-bottom: 10px;
+    margin-bottom: 220px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 60px;
+    column-gap: 55px;
     row-gap: 50px;
+    position: relative;
 }
 .service1{
     /* width: 340px; */
@@ -91,14 +91,17 @@
     height: 250px;
     border-width: 1px;
     border-color: white;
-    box-shadow: 0 1px 10px rgb(177, 177, 177);
+    box-shadow: 0 0px 8px rgb(177, 177, 177);
     border-radius: 30px;
-    padding: 25px 20px 20px 25px;
+    padding: 26px 20px 20px 25px;
     position: relative;
+    background-color: white;
+    z-index: 1;
 }
 .service-text>div{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 500;
+    line-height: 35px;
 }
 .service-text>p{
     line-height: 25px;
@@ -110,4 +113,20 @@
     bottom: 10px;
     right: 20px;
     left: 20px;
+}
+
+.bg-img1{
+    position: absolute;
+    bottom: 280px;
+    left: 920px;
+}
+.bg-img2{
+    position: absolute;
+     bottom: 50px;
+     left: 390px;
+}
+.bg-img2>img{
+    width: 191px;
+    height: 170px;
+    object-fit: contain;
 }
