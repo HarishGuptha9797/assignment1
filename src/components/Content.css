@@ -1,0 +1,113 @@
+.ad-image{
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.ad-image >img{
+    mask-image: linear-gradient(270deg,white,rgba(255,255,255,0));
+}
+.tech-services{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.tech-services > button{
+    background-color: rgb(97, 176, 97);
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding: 14px 35px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.about-teams{
+    display: flex;
+    justify-content: space-around;
+    font-size: 33px;
+    font-weight: 500;
+    color: #3d3d3d;
+    margin-bottom: 80px;
+}
+
+.about-teams >div>span{
+    color: rgb(64, 64, 238);
+}
+
+.teams{
+    margin: 0 50px;
+    margin-bottom: 170px;
+    padding-bottom: 10px;
+    padding:  0 50px 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px;
+    border-top: none;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-radius: 30px;
+    border-color:white;
+    box-shadow: 0 1px 10px rgb(177, 177, 177);
+
+}
+.Front-end,.Back-end,.Data-Analytics{
+    color: #3d3d3d;
+    width: 335px;
+}
+.Front-end > img,.Back-end>img,.Data-Analytics>img {
+    margin-Bottom: 40px;
+}
+.Front-end>p,.Back-end>p,.Data-Analytics>p{
+    line-height: 25px;
+}
+.ad-image2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.ad-image2>div{
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height:50px;
+}
+.services{
+    padding-left: 80px;
+    padding-right: 90px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    row-gap: 50px;
+}
+.service1{
+    /* width: 340px; */
+    border: solid;
+    height: 250px;
+    border-width: 1px;
+    border-color: white;
+    box-shadow: 0 1px 10px rgb(177, 177, 177);
+    border-radius: 30px;
+    padding: 25px 20px 20px 25px;
+    position: relative;
+}
+.service-text>div{
+    font-size: 30px;
+    font-weight: 500;
+}
+.service-text>p{
+    line-height: 25px;
+    font-size: 16px;
+    color: #525252;
+}
+.service-text{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    left: 20px;
+}
