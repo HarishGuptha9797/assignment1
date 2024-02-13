@@ -6,7 +6,7 @@ const Header = () => {
             <div>
                 <div className="header">
                     <div className="left-section">
-                        <img src="public\images\Logo.png" />
+                        <img src="images\Logo.png" />
                     </div>
                     <div className="middle-section">
                         {[
