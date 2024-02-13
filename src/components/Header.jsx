@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                     <div className="right-section">
                         <p>EN</p>
-                        <img src="/public/images/Vector (stroke).png" />
+                        <img src="images\Vector (Stroke).png" />
                         <button>Schedule a Call</button>
                     </div>
                 </div>
