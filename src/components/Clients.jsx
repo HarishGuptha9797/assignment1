@@ -6,7 +6,7 @@ const Clients =()=>{
         <>
             <div>
                 <div className="clients">
-                    <img src="public\Vector 4.png"/>
+                    <img src="public\\images\Vector 4.png"/>
                     <div className="clients-text">
                         <div>Trusted by Leading Organizations</div>
                         <p style={{marginBottom:'0'}}>Our 4,000+ team has expertise in almost</p>
@@ -14,12 +14,12 @@ const Clients =()=>{
                     </div>
                     <div className="companies">
                         {[
-                            {src:'public\\Vector.png',diffStyles:{height:'30px'}},
-                            {src:'public\\logos_microsoft.png',diffStyles:{height:'52px'}},
-                            {src:'public\\logos_google.png',diffStyles:{height:'56px'}},
-                            {src:'public\\Vector (1).png',diffStyles:{height:'45px'}},
-                            {src:'public\\simple-icons_lg.png',diffStyles:{height:'100px'}},
-                            {src:'public\\simple-icons_sony.png',diffStyles:{height:'150px'}}
+                            {src:'public\\images\\Vector.png',diffStyles:{height:'30px'}},
+                            {src:'public\\images\\logos_microsoft.png',diffStyles:{height:'52px'}},
+                            {src:'public\\images\\logos_google.png',diffStyles:{height:'56px'}},
+                            {src:'public\\images\\Vector (1).png',diffStyles:{height:'45px'}},
+                            {src:'public\\images\\simple-icons_lg.png',diffStyles:{height:'100px'}},
+                            {src:'public\\images\\simple-icons_sony.png',diffStyles:{height:'150px'}}
                         ].map((values,index)=>{
                             return(
                                 <div className="companies">
@@ -35,12 +35,12 @@ const Clients =()=>{
                 <div>
                     <div className="reviews-class">
                         <div className="snap">
-                            <img src="public\Intersect.png"/>
+                            <img src="public\\images\Intersect.png"/>
                             <div className="bg-img3">
-                                <img src="public\Vector 4.png"/>
+                                <img src="public\\images\Vector 4.png"/>
                             </div>
                             <div className="bg-img4">
-                                <img src="public\Vector 6.png" alt="" />
+                                <img src="public\\images\Vector 6.png" alt="" />
                             </div>
                         </div>
                         <div className="description">
@@ -57,7 +57,7 @@ const Clients =()=>{
                                         met but exceeded our expectations.
                                         Their expertise and commitment to excellence are truely commandable."
                                     `,
-                                    imgSrc:'public\\vec.png',
+                                    imgSrc:'public\\images\\vec.png',
                                     reviewByCompany:'Mary Johnson',
                                     position:'CEO of TechCraft Solutions',
                                     diffStyles:{marginTop:'30px'},
@@ -71,7 +71,7 @@ const Clients =()=>{
                                         saving us time and resources. Their team's dedication to innovation and 
                                         problem-solving is unmatched. We're grateful for their partnership."
                                     `,
-                                    imgSrc:"public\\Imagotipo 1 PNG 2.png",
+                                    imgSrc:"public\\images\\Imagotipo 1 PNG 2.png",
                                     reviewByCompany:'Mark Williams',
                                     position:'CEO of InnovateNow Inc',
                                     diffStyles:{marginTop:'18px'},
@@ -84,7 +84,7 @@ const Clients =()=>{
                                         The attention to detail, intuitive design, and user-centric approach have resulted in rave reviews from our customers.
                                         Their design expertise has taken our brand to a whole new level."
                                     `,
-                                    imgSrc:'public\\Dovetail.png',
+                                    imgSrc:'public\\images\\Dovetail.png',
                                     reviewByCompany:'Emily Clark',
                                     position:'CMO of Visionary Apps',
                                     diffStyles:{marginTop:'18px'},
@@ -93,7 +93,7 @@ const Clients =()=>{
                             ].map((values)=>{
                                     return(
                                         <div className="review1">
-                                            <img src="public\Stars.png"/>
+                                            <img src="public\\images\Stars.png"/>
                                             <div style={values.diffStyles}>{values.div}</div>
                                             <p style={values.diffStyles2}>{values.p}</p>
                                             <div className="review-by">
@@ -109,7 +109,7 @@ const Clients =()=>{
                             })}
                             {/* <div className="review1">
                                 {/* <span style={{fontSize:'25px'}}>⭐⭐️⭐️⭐️⭐️️</span> *}
-                                <img src="public\Stars.png"/>
+                                <img src="public\\images\Stars.png"/>
                                 <div>"Exceptional Solutions, Exceeded Expectations!"</div>
                                 <p>
                                     "  
@@ -120,7 +120,7 @@ const Clients =()=>{
                                     "
                                 </p>
                                 <div className="review-by">
-                                    <img src="public\vec.png"/>
+                                    <img src="public\\images\vec.png"/>
                                     <div style={{lineHeight:'30px'}}>
                                         <div style={{fontSize:'20px'}}>Mary Johnson</div>
                                         <div style={{fontSize:'14px'}}>CEO of TechCraft Solutions</div>

@@ -6,7 +6,7 @@ const Header = () => {
             <div>
                 <div className="header">
                     <div className="left-section">
-                        <img src="public/Logo.png" />
+                        <img src="public\images\Logo.png" />
                     </div>
                     <div className="middle-section">
                         {[
@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                     <div className="right-section">
                         <p>EN</p>
-                        <img src="/public/Vector (stroke).png" />
+                        <img src="/public/images/Vector (stroke).png" />
                         <button>Schedule a Call</button>
                     </div>
                 </div>
