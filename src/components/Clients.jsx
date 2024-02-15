@@ -5,7 +5,7 @@ const Clients =()=>{
     return(
         <>
             <div>
-                <div className="clients">
+                <div id="AboutUs" className="clients">
                     <img src="images\Vector 4.png"/>
                     <div className="clients-text">
                         <div>Trusted by Leading Organizations</div>
@@ -14,15 +14,15 @@ const Clients =()=>{
                     </div>
                     <div className="companies">
                         {[
-                            {src:'images\\Vector.png',diffStyles:{height:'30px'}},
+                            {src:'images\\samsung.png',diffStyles:{height:'30px'}},
                             {src:'images\\logos_microsoft.png',diffStyles:{height:'52px'}},
                             {src:'images\\logos_google.png',diffStyles:{height:'56px'}},
                             {src:'images\\Vector (1).png',diffStyles:{height:'45px'}},
                             {src:'images\\simple-icons_lg.png',diffStyles:{height:'100px'}},
-                            {src:'images\\simple-icons_sony.png',diffStyles:{height:'150px'}}
+                            {src:'images\\sony.png',diffStyles:{height:'30px',marginRight:'0'}}
                         ].map((values,index)=>{
                             return(
-                                <div className="companies">
+                                <div className="company">
                                     <img src={values.src} style={values.diffStyles} />
                                 </div>
                             )
@@ -74,6 +74,19 @@ const Clients =()=>{
                                     imgSrc:"images\\Imagotipo 1 PNG 2.png",
                                     reviewByCompany:'Mark Williams',
                                     position:'CEO of InnovateNow Inc',
+                                    diffStyles:{marginTop:'18px'},
+                                    diffStyles2:{marginBottom:'10px'}
+                                },
+                                {
+                                    div:'"Sculpted User Experiences Beyond Imagination!"',
+                                    p:`
+                                        "The UI/UX design crafted by [Company Name] turned our app into a masterpiece.
+                                        The attention to detail, intuitive design, and user-centric approach have resulted in rave reviews from our customers.
+                                        Their design expertise has taken our brand to a whole new level."
+                                    `,
+                                    imgSrc:'images\\Dovetail.png',
+                                    reviewByCompany:'Emily Clark',
+                                    position:'CMO of Visionary Apps',
                                     diffStyles:{marginTop:'18px'},
                                     diffStyles2:{marginBottom:'10px'}
                                 },

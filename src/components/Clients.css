@@ -29,11 +29,14 @@
 }
 .companies{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    overflow: auto;
+    margin-bottom: 20px;
+    padding: 0 20px;
 }
-.companies>img{
+.company>img{
     height: 50px;
+    margin-right: 120px;
 }
 .report{
     background-color: rgb(49,113, 222,1);
@@ -90,21 +93,21 @@
 }
 .reviews{
     position: absolute;
-    bottom: -320px;  
+    bottom: -330px;  
     left: 50px;
     right: 0;
     display: flex;
-    justify-content: space-between;
+    overflow: auto;
 }
 .review1{
     background-color: white;
-    width: 310px;
+    min-width: 310px;
     padding: 30px 40px 0 30px;
-    border-radius: 20px;
+    border-radius: 30px;
     border-style:solid;
     border-color: #F0F0F6;
     border-width: 1px;
-    margin-right: 10px;
+    margin-right: 80px;
 }
 .review1>div{
     font-size: 20px;

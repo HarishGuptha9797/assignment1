@@ -76,14 +76,16 @@
     line-height:50px;
 }
 .services{
-    padding-left: 90px;
-    padding-right: 90px;
     margin-bottom: 220px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 55px;
     row-gap: 50px;
     position: relative;
+    overflow: auto;
+    padding: 10px;
+    margin-left: 90px;
+    padding-right: 90px;
 }
 .service1{
     /* width: 340px; */

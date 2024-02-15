@@ -10,15 +10,15 @@ const Header = () => {
                     </div>
                     <div className="middle-section">
                         {[
-                            {name:'Home',diffStyles:{color:'#3056D3'}},
-                            {name:'About Us',diffStyles:{}},
-                            {name:'Services',diffStyles:{}},
+                            {name:'Home',diffStyles:{},link:'#Home'},
+                            {name:'About Us',diffStyles:{},link:'#AboutUs'},
+                            {name:'Services',diffStyles:{},link:"#Services"},
                             {name:'Contact Us',diffStyles:{}}
                         ].map((value)=>{
                             return(
-                                    <div style={{...value.diffStyles}}>
+                                    <a style={{...value.diffStyles}} href={value.link}>
                                         {value.name}
-                                    </div>
+                                    </a>
                             )
 
                         })}

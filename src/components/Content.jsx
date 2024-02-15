@@ -4,7 +4,7 @@ const Content = () => {
     return(
         <>
             <div>
-                <div className="content">
+                <div id="Home" className="content">
                     <div className="ad-image">
                         <img src="\images\pexels-canva-studio-3153201 1.png" />
                         <div className="tech-services">
@@ -74,7 +74,7 @@ const Content = () => {
                             <p>Our data analysts team is a blend of mathematicians, statisticians, and technology enthusiasts.</p>
                         </div> */}
                     </div>
-                    <div className="ad-image2">
+                    <div id="Services" className="ad-image2">
                         <img src="images\Vector 6.png" />
                         <div>Empowering Your Digital vision:Our<br /> Comprehensive Tech Services.</div>
                     </div>
